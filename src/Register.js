@@ -73,8 +73,8 @@ const Register = () => {
                 />
                 <p id="uidnote" className={userFocus && user && !validName ? "instructions" : "offscreen"}>
                     <FontAwesomeIcon icon={faInfoCircle} />
-                    4 to 24 characters. <br />
-                    Letters, numbers, underscores, hyphens allowed.
+                    od 4 do 24 znaków. <br />
+                    Litery, cyfry, underscores, hyphens allowed.
                 </p>
 
                 <label htmlFor="password">
